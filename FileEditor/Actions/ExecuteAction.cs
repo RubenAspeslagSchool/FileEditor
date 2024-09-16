@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FileEditor.Actions.pdf;
+using System;
 using System.Linq;
 
 namespace FileEditor.Actions
@@ -15,6 +16,8 @@ namespace FileEditor.Actions
                 new Help(),
                 new CreateFile(),
                 new DeleteFile(),
+                new ConcatenatePdf(),
+                new SplitPdf(),
             };
         }
 
