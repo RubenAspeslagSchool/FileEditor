@@ -18,6 +18,9 @@ namespace FileEditor.Actions
                 new DeleteFile(),
                 new ConcatenatePdf(),
                 new SplitPdf(),
+                new ConvertWordToPdf(),
+                new ConvertImageToPdf(),  
+                new ConvertMultipleImagesToPdf()
             };
         }
 
